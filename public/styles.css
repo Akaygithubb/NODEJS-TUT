@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+    gap: 2rem;
+    margin: auto;
+    padding: 8rem 2rem;
+    border-radius: 20px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center;
+}
+input{
+    padding: 2rem;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button{
+    background-color: lime;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font: 100 1.2rem sans-serif;
+    width: 20rem;
+    align-self: center;
+}
+
+.error{
+    color: red;
+    font-size: 0.9rem;
+    text-align: right;
+    margin: 1rem;
+}
